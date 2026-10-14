@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "example.energy_burst",
+  "displayName": "Energy Burst",
+  "type": "projectile",
+  "resourceCost": 15,
+  "cooldownSeconds": 2.5,
+  "baseDamage": 20,
+  "range": 1200,
+  "effects": [
+    "impact_spark"
+  ]
+}
