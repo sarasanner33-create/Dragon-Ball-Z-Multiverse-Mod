@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "example.crystal_frontier",
+  "displayName": "Crystal Frontier",
+  "environment": {
+    "gravityScale": 1.0,
+    "timeOfDay": "sunset",
+    "weatherPreset": "light_mist",
+    "terrainPreset": "crystal_plains"
+  },
+  "spawnPoints": [
+    {
+      "id": "start",
+      "x": 0,
+      "y": 0,
+      "z": 100
+    }
+  ]
+}
