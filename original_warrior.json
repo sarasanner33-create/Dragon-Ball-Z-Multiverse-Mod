@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "example.crystal_sentinel",
+  "displayName": "Crystal Sentinel",
+  "species": "Aetherborn",
+  "archetype": "balanced",
+  "baseStats": {
+    "health": 100,
+    "energy": 100,
+    "power": 10,
+    "defense": 10,
+    "speed": 10
+  },
+  "visuals": {
+    "mesh": "",
+    "materials": [],
+    "portrait": ""
+  },
+  "abilities": [
+    "example.energy_burst"
+  ],
+  "transformations": []
+}
