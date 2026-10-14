@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "example.original_warrior",
+  "name": "Original Warrior Example",
+  "version": "0.1.0",
+  "author": "Community",
+  "description": "A sample original character package for testing the planned mod format.",
+  "content": {
+    "characters": [
+      "characters/original_warrior.json"
+    ],
+    "abilities": [
+      "abilities/energy_burst.json"
+    ],
+    "worlds": [
+      "worlds/crystal_frontier.json"
+    ]
+  }
+}
