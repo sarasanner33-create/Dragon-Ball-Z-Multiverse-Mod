@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mod Ability",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "displayName",
+    "type"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "type": {
+      "enum": [
+        "projectile",
+        "melee",
+        "beam",
+        "buff",
+        "utility"
+      ]
+    },
+    "resourceCost": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100000
+    },
+    "cooldownSeconds": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 3600
+    },
+    "baseDamage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "range": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1000000
+    }
+  },
+  "additionalProperties": false
+}

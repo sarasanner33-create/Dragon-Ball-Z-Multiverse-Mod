@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mod Character",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "displayName",
+    "species",
+    "baseStats"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "species": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "archetype": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "baseStats": {
+      "type": "object"
+    },
+    "visuals": {
+      "type": "object"
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transformations": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}
