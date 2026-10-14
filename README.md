@@ -1,3 +1,6 @@
-# Build Tools
+# Unreal Content
 
-Platform build scripts and packaging instructions should be added after the Unreal project is generated. Console build tooling requires authorized platform SDK access.
+Create/import original assets in the Unreal Editor. Recommended folders:
+Characters, Animations, Abilities, VFX, SFX, UI, Maps, Materials, Meshes, Data, Blueprints, Cinematics.
+
+Binary Unreal assets are not included in this scaffold.
